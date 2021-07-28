@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOPH Immunization Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html{
+            font-size: 16px;
+            overflow: auto;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        *{
+            box-sizing: border-box;
+            color: #fff;
+            font-size: 22px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+        }
+        h1,h2,h3,h4,h5,h6,p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .card{
+            background-color: #9acd32;
+            border-radius: 2rem;
+            box-shadow: 5px 5px 3px rgb(0 0 0 / 50%);
+            width: 27rem;
+            min-width: 17rem;
+            max-width: 27rem;
+            min-height: 30rem;
+            padding: 16px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .card--img{
+            display: block;
+            margin: 0 auto;
+        }
+        .pb-25{
+            padding-bottom: 25px;
+        }
+        .pb-15{
+            padding-bottom: 15px;
+        }
+        .pt-15{
+            padding-top: 15px;
+        }
+        .full-name, .name, .pass{
+           font-size: 18px;
+            font-weight: 700;
+        }
+        .card-block{
+            font-size: 16px;
+            padding: 20px;
+            border-bottom: solid 2px #fff;
+        }
+
+        .font-size-20{
+            font-size: 20px !important;
+            font-weight: bold;
+        }
+        .certificate{
+            padding: 20px;
+        }
+        @media (max-width: 414px){
+            .card{
+                width: 270px;
+                font-size: 16px !important;
+            }
+            .card--img{
+                width: 47px;
+                height: 47px;
+            }
+            .card-title, .full-name, .name, .pass, .font-size-20{
+                font-size: 16px !important;
+            }
+            .certificate{
+                font-size: 18px !important;
+            }
+            .card-block{
+                padding: 10px !important;
+            }
+        }
+/*
+ชื่อวัคซีน (S) Covid-19 Vaccine -
+
+CovidSinovac เข็มที่ 1 [Sinovac Life Sciences]
+
+เข็มที่ 1 วันที่ 5 เมษายน 2564
+
+โรงพยาบาลป่าตอง
+
+เข็มที่ 2 วันที่ 24 เมษายน 2564
+
+โรงพยาบาลป่าตอง
+
+Certificate No. :  0000178493
+
+
+*/
+    </style>
+</head>
+<body>
+        <div class="card">
+            <img src="moph-logo.png" alt="MOPH Immunization Center" class="card--img" width="99" height="99">
+            
+            <div class="pb-25 pt-15">
+            <h1 class="card-title text-center">
+               ใบรับรองการรับวัคซีนโควิด 19  <br>
+                (Vaccine Certificate)
+            </h1>
+            </div>
+            <div class="text-center pb-15">
+                <h2 class="full-name">Mr. AYSEL RAFET</h2>
+                <h2 class="name">AYSEL RAFET</h2>
+                <h3 class="pass">U03816144</h3>
+            </div>
+
+           <div class="card-block font-size-20">
+              ชื่อวัคซีน (S) Covid-19  <br> Vaccine -  COVID-19 Vaccine (Vero Cell), Inactivated
+CoronaVac
+            </div>
+
+            <div class="card-block">
+                เข็มที่ 1 วันที่ 3 มิถุนายน 2564 <br>
+โรงพยาบาลป่าตอง
+            </div>
+
+            <div class="card-block">
+                เข็มที่ 2 วันที่ 23 มิถุนายน 2564 <br>
+โรงพยาบาลป่าตอง
+            </div>
+
+            <p class="certificate">Certificate No. :  0002365760</p>
+        </div>
+</body>
+</html>
